@@ -18,7 +18,7 @@ public class UserManager {
      * @param email the email address of the user
      * @param message the message to send
      */
-    public void sendEmail(String email, String message) 
+    public void sendEmail(String email, String message)
     }
 }
 
