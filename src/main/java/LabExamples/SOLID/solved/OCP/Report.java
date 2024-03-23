@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.OCP;
 
 /**
- * The Report interface allows new report types to be added without modifying existing code.
+ * The Report interface lets new report types to be added without changing existing code.
  */
 public interface Report {
     String generate();

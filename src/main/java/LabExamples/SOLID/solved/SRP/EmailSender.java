@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.SRP;
 
 /**
- * EmailNotifier is responsible for sending emails only, adhering to SRP.
+ * EmailSender is for sending emails only, adhering to SRP.
  */
 public class EmailSender {
     /**
@@ -10,6 +10,6 @@ public class EmailSender {
      * @param message the message to send
      */
     public void sendEmail(String email, String message) {
-        // Logic to send an email to the user.
+
     }
 }

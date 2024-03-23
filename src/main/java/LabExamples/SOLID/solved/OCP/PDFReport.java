@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.OCP;
 
 /**
- * PDFReport implements the Report interface and is responsible for generating PDF reports.
+ * PDFReport implements the Report interface and is for generating PDF reports.
  */
 public class PDFReport implements Report {
     @Override

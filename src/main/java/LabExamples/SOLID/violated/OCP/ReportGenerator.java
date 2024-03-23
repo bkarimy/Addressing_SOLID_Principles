@@ -10,11 +10,9 @@ public class ReportGenerator {
      * @return a string representing the report
      */
     public String generateReport(String reportType) {
-        if ("PDF".equals(reportType)) {
-            // Logic for generating a PDF report
+        if ("PDF".equals(reportType))
             return "PDF report generated.";
         } else if ("Word".equals(reportType)) {
-            // Logic for generating a Word report
             return "Word report generated.";
         }
         throw new IllegalArgumentException("Unsupported report type: " + reportType);

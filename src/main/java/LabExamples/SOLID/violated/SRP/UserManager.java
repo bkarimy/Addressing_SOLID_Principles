@@ -11,7 +11,6 @@ public class UserManager {
      * @param email the email address of the user
      */
     public void registerUser(String username, String email) {
-        // Logic to register the user in the database.
     }
 
     /**
@@ -19,8 +18,7 @@ public class UserManager {
      * @param email the email address of the user
      * @param message the message to send
      */
-    public void sendEmail(String email, String message) {
-        // Logic to send an email to the user.
+    public void sendEmail(String email, String message) 
     }
 }
 

@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.LSP;
 
 /**
- * Square class adheres to the Shape interface and provides its definition of getArea, independent of Rectangle.
+ * Square class adheres to the Shape interface and gives its definition of getArea, independent of Rectangle.
  */
 public class Square implements Shape {
     private int side;

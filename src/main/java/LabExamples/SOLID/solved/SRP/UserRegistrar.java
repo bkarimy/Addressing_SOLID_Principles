@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.SRP;
 
 /**
- * UserRegistrar is responsible for handling user registration only, adhering to SRP.
+ * UserRegistrar is for handling user registration only, adhering to SRP.
  */
 public class UserRegistrar {
     /**
@@ -10,6 +10,6 @@ public class UserRegistrar {
      * @param email the email address of the user
      */
     public void registerUser(String username, String email) {
-        // Logic to register the user in the database.
+
     }
 }

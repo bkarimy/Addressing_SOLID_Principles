@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.LSP;
 
 /**
- * Rectangle class adheres to the Shape interface without enforcing constraints that are specific to other shapes like Square.
+ * Rectangle class adheres to the Shape interface without forcing constraints that are specific to other shapes like Square.
  */
 public class Rectangle implements Shape {
     private int width;

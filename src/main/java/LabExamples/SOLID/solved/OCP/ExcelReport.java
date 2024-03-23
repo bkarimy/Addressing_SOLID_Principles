@@ -1,7 +1,7 @@
 package LabExamples.SOLID.solved.OCP;
 
 /**
- * WordReport implements the Report interface and is responsible for generating Word reports.
+ * WordReport implements the Report interface and is used for generating Word reports.
  */
 public class ExcelReport implements Report {
     @Override
